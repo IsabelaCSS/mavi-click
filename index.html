@@ -7,16 +7,47 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main class="card">
-    <img src="assets/foto.jpg" alt="Foto de perfil" class="avatar">
-    <h1>Isabela de Oliveira Alves</h1>
-    <p class="bio">Estudante de Análise e Desenvolvimento de Sistemas</p>
-    <nav class="links">
-      <a href="https://github.com/IsabelaCSS" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/isabela-de-oliveira-alves" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://isabelacss.github.io/Portifolio/" target="_blank" rel="noopener">Portfólio</a>
-    </nav>
-  </main>
-  <script src="js/script.js"></script>
+    <div class="fundo">
+        <span class="blob blob-1"></span>
+        <span class="blob blob-2"></span>
+        <span class="blob blob-3"></span>
+    </div>
+    <main class="cartao">
+        <header class="cartao-conteudo">
+            <div class="avatar">
+                <img src="assets/foto.png" alt="Foto de perfil de Isabela de Oliveira Alves">
+            </div>
+                <h1>Isabela de Oliveira Alves</h1>
+                <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
+        </header>
+
+        <nav class="links-redes">
+            <a href="https://www.linkedin.com/in/isabela-de-oliveira-alves/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+                LinkedIn
+            </a>
+            <a href="https://github.com/IsabelaCSS" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.21.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23.96-.27 1.98-.4 3-.4s2.04.14 3 .41c2.29-1.56 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.61-.01 2.9-.01 3.29 0 .32.21.7.82.58A11.5 11.5 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+                GitHub
+            </a>
+            <a href="https://isabelacss.github.io/Portifolio/" target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                Portfólio
+            </a>
+            <a href="mailto:isabeladev.52@exemplo.com">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><path d="m22 6-10 7L2 6"/></svg>
+                E-mail
+            </a>
+        </nav>
+
+        <footer class="rodape">
+            <button type="button" id="botao-tema" aria-pressed="false" aria-label="Alternar tema claro e escuro">
+                <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                <svg class="lua" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+            <p>&copy; 2026 Isabela de Oliveira Alves. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+    <script src="js/script.js"></script>
 </body>
 </html>

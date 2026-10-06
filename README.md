@@ -22,8 +22,7 @@ mavi-click/
 │   └── foto.png
 └── README.md
 ```
-`
-```
+
 ## Tecnologias
 
 - **HTML5**: estrutura semântica do cartão, com `header`, `nav` e `footer`.
